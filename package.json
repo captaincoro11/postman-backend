@@ -2,11 +2,11 @@
   "name": "warewe-backend",
   "version": "1.0.0",
   "description": "",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon api/index.js"
+    "start": "nodemon api/index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,7 @@
   "dependencies": {
     "axios": "^1.7.2",
     "circular-json": "^0.5.9",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2"
   }

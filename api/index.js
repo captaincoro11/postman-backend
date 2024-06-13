@@ -2,8 +2,11 @@ import express from "express";
 import axios from 'axios';
 import dotenv from 'dotenv';
 import CircularJSON from 'circular-json';
+import cors from 'cors'
 
 dotenv.config();
+
+app.use(cors());
 
 const app = express();
 const port = process.env.PORT || 3000;
